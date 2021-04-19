@@ -8,6 +8,7 @@ class ShoppingMallApplicationTests {
 
     @Test
     void contextLoads() {
+      System.out.println(""s);
     }
 
 }
