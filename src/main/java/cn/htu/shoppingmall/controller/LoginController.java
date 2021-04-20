@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
 
-    @Value("${appid}")
+    @Value("${wechat.appid}")
     private String appid;
 
-    @Value("${appsecret}")
+    @Value("${wechat.appsecret}")
     private String appsecret;
 
     @RequestMapping("/login")
